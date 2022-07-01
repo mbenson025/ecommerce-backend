@@ -20,8 +20,16 @@ router.get('/:id', (req, res) => {
     },
     include: [Product],
   })
-    .then((cData) => res.json(cData))
-    .catch((err) => res.status(500).json(err));
+    .then((cData) => {
+      if (!cData) {
+        res.status(404).json({ message: 'Category id not found' });
+        return;
+      }
+      res.json(cData);
+    })
+    .catch((err) => {
+      res.status(500).json(err);
+    });
 });
 
 router.post('/', (req, res) => {
@@ -30,7 +38,7 @@ router.post('/', (req, res) => {
   })
     .then((cData) => res.json(cData))
     .catch((err) => {
-      res.status(500).json(err);
+      res.status(400).json(err);
     });
 });
 
