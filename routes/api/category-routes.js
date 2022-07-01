@@ -25,7 +25,6 @@ router.get('/:id', (req, res) => {
 });
 
 router.post('/', (req, res) => {
-  // create a new category
   Category.create({
     category_name: req.body.category_name,
   })
@@ -37,6 +36,26 @@ router.post('/', (req, res) => {
 
 router.put('/:id', (req, res) => {
   // update a category by its `id` value
+  Category.update(
+    {
+      category_name: req.body.category_name,
+    },
+    {
+      where: {
+        id: req.params.id,
+      },
+    }
+  )
+    .then((cData) => {
+      if (!cData) {
+        res.status(404).json({ message: 'Category id not found' });
+        return;
+      }
+      res.json(cData);
+    })
+    .catch((err) => {
+      res.status(500).json(err);
+    });
 });
 
 router.delete('/:id', (req, res) => {
