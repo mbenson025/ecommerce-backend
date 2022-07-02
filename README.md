@@ -50,6 +50,9 @@ Seed the database with sample information:
 npm run seed
 ```
 
+<br>
+<img src="./assets/ecommSeeded.jpg" alt="insomnia get request" title="Insomnia Testing">
+
 Start the application:
 
 ```
