@@ -4,7 +4,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/mbenson025/ecommerce-backend)
 ![GitHub top language](https://img.shields.io/github/languages/top/mbenson025/ecommerce-backend)
 
-<img src="assets/tagsGet.jpg" alt="insomnia get request" title="Insomnia Testing">
+<img src="assets/getreq.jpg" alt="insomnia get request" title="Insomnia Testing">
 
 <br>
 
@@ -52,12 +52,12 @@ npm run seed
 ```
 
 <br>
-<img src="./assets/ecommSeeded.jpg" alt="insomnia get request" title="Insomnia Testing">
+<img src="./assets/ecommSeeded.jpg" alt="command line seeding" title="npm run seed">
 
 Start the application:
 
 ```
-npm run start
+node server
 ```
 
 <br>
@@ -71,7 +71,7 @@ npm run start
 <br>
 Demo gif:
 
-<!-- <img src="assets/employeetracker.gif" alt="Demo of application" title="App Demo"> -->
+<img src="assets/runsetup.gif" alt="application setup/seed" title="App Setup">
 
 <br>
 
