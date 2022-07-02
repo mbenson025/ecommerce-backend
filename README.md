@@ -69,9 +69,18 @@ node server
 <!-- [Full Video Demo](https://drive.google.com/file/d/1yIqOX--lV8A__oeqv3z-9nNMT06sUJdY/view) -->
 
 <br>
-Demo gif:
 
+### Demo gifs:
+
+<br>
+App setup and seeding
 <img src="assets/runsetup.gif" alt="application setup/seed" title="App Setup">
+
+<br>
+
+API requests tested using [insomnia](https://insomnia.rest/)
+
+<img src="assets/insomniatests.gif" alt="api tests" title="Insomnia Testing">
 
 <br>
 
