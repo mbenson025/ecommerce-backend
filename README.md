@@ -4,7 +4,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/mbenson025/ecommerce-backend)
 ![GitHub top language](https://img.shields.io/github/languages/top/mbenson025/ecommerce-backend)
 
-<img src="./assets/tagsGet.jpg" alt="insomnia get request" title="Insomnia Testing">
+<img src="assets/tagsGet.jpg" alt="insomnia get request" title="Insomnia Testing">
 
 <br>
 
@@ -22,11 +22,12 @@
 
 ## Description
 
+Back-end application for an e-commerce website. The Object Relational Mapping tool [sequelize](https://sequelize.org/) is used to run a [MySQL](https://www.mysql.com/) database using JavaScript via Node.js.
 <br>
 
 ## Installation
 
-[Node.js](https://nodejs.org/en/) installation is required.
+[Node.js](https://nodejs.org/en/) installation is required. Clone repo and follow usage commands.
 
 <br>
 
