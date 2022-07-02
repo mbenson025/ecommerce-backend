@@ -4,7 +4,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/mbenson025/ecommerce-backend)
 ![GitHub top language](https://img.shields.io/github/languages/top/mbenson025/ecommerce-backend)
 
-<!-- <img src="./assets/introEmpTracker.jpg" alt="options on title screen" title="App Launch Screen"> -->
+<img src="./assets/tagsGet.jpg" alt="insomnia get request" title="Insomnia Testing">
 
 <br>
 
@@ -78,6 +78,7 @@ Demo gif:
 - [express](https://expressjs.com/)
 - [sequelize](https://sequelize.org/)
 - [dotenv](https://www.npmjs.com/package/dotenv)
+- [insomnia](https://insomnia.rest/)
 
 <br>
 
