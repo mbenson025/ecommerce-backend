@@ -54,7 +54,7 @@ npm run seed
 <br>
 <img src="./assets/ecommSeeded.jpg" alt="command line seeding" title="npm run seed">
 
-Start the application:
+Start the application/run the port:
 
 ```
 node server
@@ -66,14 +66,16 @@ node server
 
 <br>
 
-<!-- [Full Video Demo](https://drive.google.com/file/d/1yIqOX--lV8A__oeqv3z-9nNMT06sUJdY/view) -->
+[Full Video Demo](https://drive.google.com/file/d/1A07wRr_sdNGFyZE6y547SnCxX1iEwOGt/view)
 
 <br>
 
 ### Demo gifs:
 
 <br>
+
 App setup and seeding
+
 <img src="assets/runsetup.gif" alt="application setup/seed" title="App Setup">
 
 <br>
